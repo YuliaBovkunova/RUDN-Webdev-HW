@@ -1,0 +1,13 @@
+.contactDetails {
+	align-items: center;
+	column-gap: 56px;
+	display: flex;
+	flex-direction: row;
+}
+
+@media (max-width: 780px) {
+	.contactDetails {
+		column-gap: 38px;
+		width: 100%;
+	}
+}

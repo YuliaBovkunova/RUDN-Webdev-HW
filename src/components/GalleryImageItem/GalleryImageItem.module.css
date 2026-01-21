@@ -1,0 +1,18 @@
+.item {
+	aspect-ratio: 1;
+	border-radius: var(--border-radius-md);
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.item img {
+	display: block;
+	height: 100%;
+	margin: 0;
+	object-fit: cover;
+	padding: 0;
+	width: 100%;
+}
