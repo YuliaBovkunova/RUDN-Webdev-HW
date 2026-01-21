@@ -1,0 +1,53 @@
+.selector {
+	align-items: stretch;
+	border-radius: var(--border-radius-lg);
+	display: flex;
+	overflow: hidden;
+	width: 163px;
+}
+
+.controls {
+	align-items: center;
+	background-color: var(--color-bg-controls);
+	border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
+	display: flex;
+	gap: 8px;
+	padding: 12px 10px;
+}
+
+.button {
+	align-items: center;
+	background-color: var(--color-bg-button);
+	border: none;
+	border-radius: var(--border-radius-sm);
+	color: var(--color-text-dark);
+	cursor: pointer;
+	display: flex;
+	font-size: 18px;
+	font-weight: 600;
+	height: 24px;
+	justify-content: center;
+	line-height: 1;
+	padding: 0;
+	width: 24px;
+}
+
+.quantity {
+	color: var(--color-text-dark);
+	font-size: 16px;
+	font-weight: 700;
+	min-width: 20px;
+	text-align: center;
+}
+
+.total {
+	align-items: center;
+	background-color: var(--color-primary-yellow);
+	border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;
+	color: var(--color-text-dark);
+	display: flex;
+	font-size: 15px;
+	font-weight: 700;
+	justify-content: center;
+	padding: 12px 16px;
+}

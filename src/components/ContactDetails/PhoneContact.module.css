@@ -1,0 +1,51 @@
+.phoneContact {
+	align-items: center;
+	display: flex;
+	gap: 16px;
+}
+
+.icon {
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 55%;
+	border-radius: var(--border-radius-full);
+	display: inline-flex;
+	justify-content: center;
+}
+
+.phoneGroup {
+	display: flex;
+	flex-direction: column;
+}
+
+.phoneNumber {
+	color: var(--color-text-white);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 5px;
+}
+
+.schedule {
+	color: var(--color-text-white);
+	font-size: 15px;
+	line-height: 1.35;
+}
+
+@media (max-width: 780px) {
+	.phoneContact {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.icon {
+		height: 36px;
+		width: 36px;
+	}
+
+	.phoneNumber {
+		font-size: 17px;
+	}
+}

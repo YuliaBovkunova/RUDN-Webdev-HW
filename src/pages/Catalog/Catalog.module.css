@@ -1,0 +1,11 @@
+.catalog {
+	margin-bottom: 80px;
+}
+
+.title {
+	color: var(--color-text-dark);
+	font-size: 48px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	text-align: center;
+}

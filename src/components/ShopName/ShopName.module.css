@@ -1,0 +1,36 @@
+.shopName {
+	align-items: center;
+	column-gap: 18px;
+	display: flex;
+}
+
+.titleWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	color: var(--color-text-white);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 6px;
+}
+
+@media (max-width: 780px) {
+	.title {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 480px) {
+	.shopName {
+		align-items: flex-start;
+		flex-direction: column;
+		row-gap: 12px;
+	}
+
+	.title {
+		font-size: 23px;
+	}
+}

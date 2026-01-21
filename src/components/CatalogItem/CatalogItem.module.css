@@ -1,0 +1,64 @@
+.item {
+	background-color: var(--color-bg-white);
+	border-radius: var(--border-radius-lg);
+	box-shadow: var(--shadow-card);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 380px;
+}
+
+.imageContainer img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 50px 44px;
+}
+
+.itemTitle {
+	color: var(--color-text-dark);
+	font-size: 24px;
+	font-weight: 600;
+	width: 247px;
+}
+
+.itemDescription {
+	color: var(--color-text-light);
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 12px;
+	width: 247px;
+}
+
+.bottomSection {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.priceLabel {
+	color: var(--color-text-medium);
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.orderBtn {
+	background-color: var(--color-primary-yellow);
+	border: none;
+	border-radius: var(--border-radius-lg);
+	color: var(--color-text-dark);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	width: 163px;
+}

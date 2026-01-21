@@ -1,0 +1,53 @@
+.topBar {
+	background: var(--color-primary-dark);
+	font-family: var(--font-family-main);
+	padding: 40px 0 30px;
+	position: relative;
+	z-index: 100;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1920px;
+	padding: 0 342px;
+	width: 100%;
+}
+
+.wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 1650px) {
+	.container {
+		padding: 0 142px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.container {
+		padding: 0 92px;
+	}
+}
+
+@media (max-width: 820px) {
+	.container {
+		padding: 0 50px;
+	}
+}
+
+@media (max-width: 780px) {
+	.wrapper {
+		align-items: flex-start;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+}
+
+@media (max-width: 560px) {
+	.container {
+		padding: 0 24px;
+	}
+}

@@ -1,0 +1,20 @@
+.text {
+	color: var(--color-text-white);
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 780px) {
+	.text {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 460px) {
+	.text {
+		font-size: 12px;
+		line-height: 1.33;
+	}
+}
